@@ -621,6 +621,11 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -893,6 +898,9 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.services {
+  padding-top: 0px;
+}
 .services .service-item {
   position: relative;
 }
@@ -920,7 +928,7 @@ section,
   background: var(--surface-color);
 }
 
-.services .service-item:hover .icon i {
+.services .service-item:hover .icon span {
   color: var(--accent-color);
 }
 
