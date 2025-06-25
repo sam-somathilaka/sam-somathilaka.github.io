@@ -67,14 +67,25 @@
     </a>
 
     <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#publications"><i class="bi bi-images navicon"></i> Publications</a></li>
-        <li><a href="#Editorial"><i class="bi bi-pencil-square navicon"></i> Editorial Work</a></li>
-        <li><a href="#Administrative"><i class="bi bi-person-gear navicon"></i> Administrative Work</a></li>
-      </ul>
+        <ul>
+            <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+            <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+            <li class="dropdown"><a href="#research"><i class="bi bi-menu-button navicon"></i> <span>Research Interests</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="grnn.html">GRNN</a></li>
+                    <li><a href="#">Bio-inspired Computing</a></li>
+                    <li><a href="#">Biocomputing</a></li>
+                    <li><a href="#">Agent-based Simululation</a></li>
+                    <li><a href="#">Molecular Communication</a></li>
+                    <li><a href="#">Biological AI</a></li>
+                </ul>
+            </li>
+            <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+            <li><a href="#publications"><i class="bi bi-images navicon"></i> Publications</a></li>
+            <li><a href="#Editorial"><i class="bi bi-pencil-square navicon"></i> Editorial Work</a></li>
+            <li><a href="#Administrative"><i class="bi bi-person-gear navicon"></i> Administrative Work</a></li>
+ </ul>
     </nav>
 
   </header>
@@ -98,13 +109,13 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4">
           <div>
-            <div class="portfolio-details-slider swiper">
+            <div class="portfolio-details-slider swiper"  style="width: 80%;">
               <script type="application/json" class="swiper-config">
               {
                 "loop": true,
                 "speed": 600,
                 "autoplay": {
-                  "delay": 3000
+                  "delay": 6000
                 },
                 "slidesPerView": "auto",
                 "pagination": {
@@ -191,10 +202,9 @@
                       regulation and cell plasticity.</a></i>" <b>Proceedings of TinyML Research
                     Symposium, San Francisco, USA</b>, April 2024.</span></li>
             </ul>
+            <p>Through this work, we are bridging synthetic biology and artificial intelligence, opening new pathways for sustainable and intelligent bio-hybrid systems.</p>
           </div>
-          <p>
-            Through this work, we are bridging synthetic biology and artificial intelligence, opening new pathways for sustainable and intelligent bio-hybrid systems.
-          </p>
+
         </div>
 
       </div>
