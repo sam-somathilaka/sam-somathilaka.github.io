@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - PhotoFolio Bootstrap Template</title>
+  <title>The other side of Sam</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -38,22 +38,28 @@
 
 <body class="index-page" style="min-height: 100vh; max-height: 100vh;">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header d-flex align-items-center header-overlay">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
-      <a href="https://sam-somathilaka.me/" class="logo d-flex align-items-center mx-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-<!--        <i class="bi bi-camera"></i>-->
-        <h1 class="#" style="font-family: Roboto"><i class="bi bi-house"></i></h1>
+      <!-- Left: Home -->
+      <a href="index.html" class="header-home d-flex align-items-center gap-2">
+<!--        <i class="bi bi-house"></i>-->
+<!--        <span>Home</span>-->
       </a>
 
+      <!-- Center: Menu -->
       <nav id="navmenu" class="navmenu">
-
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-
+      <!-- Right: spacer (keeps the menu visually centered) -->
+      <div class="header-spacer" aria-hidden="true"></div>
 
     </div>
   </header>
@@ -61,45 +67,50 @@
   <main class="main" >
 
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section" style="background-image: url('../assets/img/PhotographBG.jpg'); background-size: cover; background-position: center;">
+    <!-- Hero / Gallery Section -->
+    <section id="gallery" class="gallery section hero-categories" style="background-image: url('../assets/img/PhotographBG.jpg'); background-size: cover; background-position: center;">
 
+      <div class="container col-lg-6 ms-0 " data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 justify-content-center hero-categories-row">
 
-      <div class="container-fluid col-6 ms-0 me-auto" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-3 justify-content-center">
-
-          <div class="col-xl-8 col-lg-8 col-md-8">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/astro/Andromeda.JPG" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/astro/Andromeda.JPG" title="Andromeda Galaxy" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          <!-- Card: Astrophotography -->
+          <div class="col-12 col-lg-12">
+            <div class="category-card">
+              <img src="assets/img/gallery/astro/Andromeda.JPG" alt="Andromeda Galaxy" class="category-card-img">
+              <div class="category-card-overlay"></div>
+              <div class="category-card-body">
+                <h2 class="category-card-title">Astrophotography</h2>
+                <div class="category-card-actions">
+                  <a class="btn btn-primary" href="gallery.html?category=astro">View Gallery</a>
+                </div>
               </div>
+              <a class="category-card-lightbox glightbox" href="assets/img/gallery/astro/Andromeda.JPG" title="Andromeda Galaxy" aria-label="Preview Astrophotography image"></a>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-4 col-lg-4 col-md-4 d-flex align-items-center">
-            <h1 style="font-family: Roboto">Astrophotography</h1>
           </div>
 
-          <div class="col-xl-8 col-lg-8 col-md-8">
-            <div class="gallery-item h-100">
-              <img src="assets/img/gallery/nature/IMG_3517.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/nature/IMG_3517.jpg" title="" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+          <!-- Card: Nature -->
+          <div class="col-12 col-lg-12">
+            <div class="category-card">
+              <img src="assets/img/gallery/nature/IMG_3517.jpg" alt="Nature sky" class="category-card-img">
+              <div class="category-card-overlay"></div>
+              <div class="category-card-body">
+                <h2 class="category-card-title">Nature</h2>
+                <div class="category-card-actions">
+                  <a class="btn btn-primary" href="gallery.html?category=nature">View Gallery</a>
+                </div>
               </div>
+              <a class="category-card-lightbox glightbox" href="assets/img/gallery/nature/IMG_3517.jpg" title="Nature" aria-label="Preview Nature image"></a>
             </div>
-          </div><!-- End Gallery Item -->
-          <div class="col-xl-4 col-lg-4 col-md-4 d-flex align-items-center">
-            <h1 style="font-family: Roboto">Nature</h1>
           </div>
 
         </div>
 
+<!--        <div class="hero-tagline text-center">-->
+<!--          <h2>Capturing the Beauty of the Night<br>Sky and the Natural World</h2>-->
+<!--        </div>-->
       </div>
 
-    </section><!-- /Gallery Section -->
+    </section><!-- /Hero / Gallery Section -->
 
   </main>
 
