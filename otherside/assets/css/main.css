@@ -670,7 +670,6 @@ h6 {
 
 .page-title .heading h1 {
   font-size: 64px;
-  font-weight: 400;
   font-weight: 100;
   letter-spacing: 0.2px;
   font-family: 'Inter';
@@ -748,7 +747,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 400;
   padding: 0;
   line-height: 1px;
@@ -772,9 +771,13 @@ section,
 .section-title p {
   color: var(--heading-color);
   margin: 0;
-  font-size: 36px;
-  font-weight: 400;
-  font-family: var(--heading-font);
+  /*font-size: 36px;*/
+  /*font-weight: 400;*/
+  /*font-family: var(--heading-font);*/
+  font-size: 52px;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  font-family: 'Inter';
 }
 
 /*--------------------------------------------------------------
