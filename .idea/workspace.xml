@@ -23,11 +23,13 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.nature.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sam/Library/CloudStorage/OneDrive-UniversityofNebraska-Lincoln/Administrative/PersonalWebsite&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sam/Library/CloudStorage/OneDrive-UniversityofNebraska-Lincoln/Administrative/PersonalWebsite/otherside&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -36,6 +38,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/otherside" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/otherside/assets/img/gallery/nature/lincoln" />
+      <recent name="$PROJECT_DIR$/otherside/assets/img/gallery/nature/rockyMountain" />
+      <recent name="$PROJECT_DIR$/otherside/assets/img/gallery/nature/yellowstone" />
+      <recent name="$PROJECT_DIR$/otherside/assets/img/gallery/nature/grandCanyon" />
+      <recent name="$PROJECT_DIR$/otherside/assets/img/gallery/nature" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="nature.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/.gitignore/otherside/nature.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.nature.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -52,6 +77,12 @@
       <updated>1755021760471</updated>
       <workItem from="1755021761556" duration="1055000" />
       <workItem from="1755051172144" duration="1135000" />
+      <workItem from="1756606637693" duration="1360000" />
+      <workItem from="1765143598453" duration="3329000" />
+      <workItem from="1769215455008" duration="24119000" />
+      <workItem from="1769999258704" duration="7988000" />
+      <workItem from="1770081846089" duration="1126000" />
+      <workItem from="1770082980830" duration="4189000" />
     </task>
     <servers />
   </component>
